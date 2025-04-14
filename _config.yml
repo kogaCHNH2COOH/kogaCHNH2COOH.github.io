@@ -10,23 +10,24 @@ baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/kogaCHNH2COOH/kogaCHNH2COOH.github.io.git" # you code repository
 
 # Sidebar settings
-sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "username = 鬼焦/koga <br>电子流浪汉的存档处。"
-sidebar-avatar: /img/about-BY-gentle.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar: true                            # whether or not using Sidebar.
+sidebar-about-description: "username = 鬼焦/koga <br>电子流浪汉的存档处。" # 这里也不要加多余的引号
+# 这里可以把你的头像图片放在 `/img/` 目录下，然后路径改成你的图片
+# 建议用 jpg/webp 格式，背景图和头像文件大小不要太大，不然影响加载速度
+sidebar-avatar: /img/about-BY-gentle.jpg # use absolute URL, seeing it's used in both `/` and `/about/`
 
 # SNS settings
 RSS: false
-# weibo_username:     qiubaiying
+# weibo_username:  qiubaiying
 github_username:   kogaCHNH2COOH
 twitter_username:  koga_CHNH2COOH
-# twitter_username:   qiubaiying
 
 # Build settings
 # from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
 permalink: pretty
 paginate: 10
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
-anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
+anchorjs: true   # if you want to customize anchor. check out line:181 of `post.html`
 
 # Gems
 # from PR#40, to support local preview for Jekyll 3.0
@@ -42,7 +43,6 @@ kramdown:
   input: GFM                            # use Github Flavored Markdown !important
 
 # 统计
-
 # Analytics settings
 # Baidu Analytics
 # ba_track_id: b50bf2b12b5338a1845e33832976fd68
