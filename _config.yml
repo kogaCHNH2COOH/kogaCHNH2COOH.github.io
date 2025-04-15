@@ -14,7 +14,7 @@ sidebar: true                            # whether or not using Sidebar.
 sidebar-about-description: "username = 鬼焦/koga <br>Let's Struggle" # 这里也不要加多余的引号
 # 这里可以把你的头像图片放在 `/img/` 目录下，然后路径改成你的图片
 # 建议用 jpg/webp 格式，背景图和头像文件大小不要太大，不然影响加载速度
-sidebar-avatar: /img/about-BY-gentle.jpg # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: /img/about-gentle.jpg # use absolute URL, seeing it's used in both `/` and `/about/`
 
 # SNS settings
 RSS: false
