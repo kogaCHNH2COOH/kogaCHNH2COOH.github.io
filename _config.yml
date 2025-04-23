@@ -61,9 +61,12 @@ service-worker: true
 
 # Friends
   [
-        { title: "Schnap5idee", href: "https://sayaka-4987.github.io/" },
+        {
+            title: "Schnap5idee", 
+            href: "https://sayaka-4987.github.io/" 
+        },
         {
             title: "广告位招租",
-            href: "https://mis.bjtu.edu.cn/home/",
+            href: "",
         },
     ]
