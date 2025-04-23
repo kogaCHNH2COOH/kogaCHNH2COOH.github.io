@@ -60,7 +60,7 @@ chrome-tab-theme-color: "#000000"
 service-worker: true
 
 # Friends
-  [
+friends: [
         {
             title: "Schnap5idee", 
             href: "https://sayaka-4987.github.io/" 
@@ -69,4 +69,4 @@ service-worker: true
             title: "广告位招租",
             href: "",
         },
-    ]
+]
